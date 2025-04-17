@@ -1,0 +1,78 @@
+# PHP
+/vendor/
+composer.phar
+composer.lock
+
+# Environment files
+.env
+.env.backup
+.env.*.backup
+
+# IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Node (for blockchain)
+/node_modules/
+package-lock.json
+
+# Testing
+.phpunit.result.cache
+coverage/
+
+# Cache and logs
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+.php_cs.cache
+
+# Build artifacts
+/public/hot
+/public/storage
+/public/build
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Blockchain
+/cache/
+/artifacts/
+typechain/
+coverage.json
+coverage/
+.coverage_artifacts/
+.coverage_cache/
+.coverage_contracts/
+
+# Python (AI service)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg 
